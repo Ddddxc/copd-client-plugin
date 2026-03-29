@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Overlay</title>
+    <style>
+      html,body{margin:0;height:100%;cursor:crosshair;background:rgba(0,0,0,0.2)}
+      #box{position:fixed;border:2px solid #409eff;background:rgba(64,158,255,0.2);display:none}
+      #hint{position:fixed;top:10px;left:10px;color:#fff;font-family:system-ui}
+    </style>
+  </head>
+  <body>
+    <div id="hint">拖拽选择区域，Enter确认，Esc取消</div>
+    <div id="box"></div>
+    <script type="module" src="./overlay.js"></script>
+  </body>
+  </html>

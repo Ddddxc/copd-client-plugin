@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/": ["src/renderer/"]
+    },
+    "skipLibCheck": true,
+    "types": ["node", "electron"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue"]
+}

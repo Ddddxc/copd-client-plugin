@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+out/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.tsbuildinfo
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+resources/python/venv/
+resources/python/app/data/
+resources/python/app/result/
+resources/python/app/detect/
+
+# Database
+*.sqlite
+*.db
+
+# Electron
+dist-electron/
+dist-renderer/
